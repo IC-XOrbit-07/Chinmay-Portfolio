@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <title>Chinmay Porwal - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/favicon_rounded.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar active" data-sidebar>
+
+      <div class="sidebar-info active">
+
+        <figure class="avatar-box" style="background: transparent !important">
+          <img src="assets/images/my-avatar-favicon.png" alt="Aayush Samriya" width="80" loading="lazy" style="scale: 1.3; border-radius: 50%;">
+        </figure>
+
+        
+      <div class="info-content">
+        <h1 class="name" title="" style="margin-left: 20px;">Chinmay Porwal</h1>
+        
+        <p class="title" style="scale: 1.25; margin-top: 30px;">👉 C++ Developer
+        <br>👉 Figma Designer
+        <br>👉 MERN Developer
+        <br>👉 CV/ML Learner
+        <br>👉 Building @Gymmer</p>
+      </div>
+  
+        
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:chinmayporwal23@gmail.com" class="contact-link">chinmayporwal23@gmail.com</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday Year</p>
+
+              <time datetime="1982-06-23">2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bhilwara, Rajasthan, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/chinmay-porwal/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/enginebits" class="social-link" target="_blank">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/IC-XOrbit-07" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link navbar-link1  active" data-nav-link>About</button>
+          </li>
+
+          <li>
+            <a href="https://drive.google.com/file/d/1ToV0g6bqB0eqiQ6RsHeQGv5cYsjuyy3a/view?usp=sharing" target="_blank" style="color: #A1A1AA; scale: .9; font-weight: 400;">
+            Resume</a>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a passionate Computer Science student with a growing interest in Artificial Intelligence and Machine Learning.
+            Recently, I've been exploring how to train custom datasets using pre-trained object detection models, which has deepened
+            my curiosity in the AI/ML domain. Alongside this, I have a strong foundation in core Computer Science subjects including
+            Data Structures & Algorithms (DSA), Operating Systems (OS), Database Management Systems (DBMS), Computer Networks (CN),
+            and Object-Oriented Programming (OOPs).
+          </p>
+          
+          <p>
+            I specialize in full-stack development with expertise in the MERN stack (MongoDB, Express.js, React, Node.js), and I'm
+            adept at building scalable applications with clean and responsive user interfaces. My front-end skills are enhanced by
+            my proficiency in Tailwind CSS, Bootstrap, and UI/UX design using Figma. I enjoy designing intuitive and user-friendly
+            experiences that align with modern development practices.
+          </p>
+          
+          <p>
+            Problem-solving is at the heart of what drives me, and I'm passionate about building software that makes a meaningful
+            impact. I thrive in collaborative environments and am always eager to contribute to real-world projects where I can
+            apply my skills and continue learning. With a commitment to continuous improvement, I actively seek out opportunities to
+            explore emerging technologies and sharpen my technical abilities.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Projects</h3>
+          <ul class="project-list">
+          
+            <li class="project-item  active">
+              <a href="https://github.com/IC-XOrbit-07/Candy-ML" target="_blank">
+          
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+          
+                  <img src="assets/images/candyml1.png" loading="lazy">
+                </figure>
+          
+                <h3 class="project-title">Candy ML</h3>
+          
+                <p class="project-category">Custom YOLOv11s model for detecting 5 toffee types, trained on 200+ labeled images via Label Studio. Built with Ultralytics YOLO, OpenCV, and CUDA. Supports real-world tasks like sorting, quality control, and retail automation.</p>
+          
+              </a>
+            </li>
+          
+            <li class="project-item  active" data-filter-item data-category="python tool">
+              <a href="https://github.com/IC-XOrbit-07/PorwalTravelsWebsite" target="_blank">
+          
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+          
+                  <img src="assets/images/travelwebsite.png" loading="lazy">
+                </figure>
+          
+                <h3 class="project-title">Porwal Travels</h3>
+          
+                <p class="project-category" style="text-align:start;">A responsive React app using Tailwind CSS and Firebase Firestore for form storage. Built with clean structure, unique styling, and efficient form handling via React Hook Form and hooks.</p>
+          
+              </a>
+            </li>
+          
+            <li class="project-item  active" data-filter-item data-category="python tool">
+              <a href="https://www.linkedin.com/posts/chinmay-porwal_buildinpublic-startupjourney-indiehacker-activity-7317392420252401664-gEZe/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJMtgUBOYBPeSyxfeS6mNE1-PjiY7kJcwc" target="_blank">
+          
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+          
+                  <img src="assets/images/gymmer.png" alt="a python tool" loading="lazy">
+                </figure>
+          
+                <h3 class="project-title">Gymmer</h3>
+          
+                <p class="project-category">I built the UI myself after researching 100+ SaaS apps and refining the design through multiple iterations. Using Figma, I crafted a polished, intuitive interface tailored for Gymmer’s fitness platform.
+                </p>
+          
+              </a>
+            </li>
+          
+           
+          
+          </ul>
+
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="" alt="" width="80" data-modal-img loading="lazy">
+              </figure>
+              <button class="modal-quote-btn">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" style="width: 40px; transform: rotate(180deg);" viewBox="0 0 512 512">
+                  <path d="M96.4 416h77.1l50.9-96.6V96h-160v223.4h77.1L96.4 416zm224 0h77.1l50-96.6V96H288.4v223.4h82l-50 96.6z"/>
+                </svg> -->
+                <div class="social-list">
+                  <li class="social-item">
+                    <a href="https://in.linkedin.com/in/chinmay-porwal" class="social-link">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+                  </div>
+              </button>
+              
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Time</h4>
+              <time id="current-time" datetime="2025-02-16T11:33:44.450Z"></time>
+              <div data-modal-text>
+                <p></p>
+              </div>
+            </div>
+            
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo" loading="lazy">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>-->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+
+
+
+
+
+      <!--
+        - #Project
+      -->
+
+      <article class="project" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">Project</h2>
+        </header>
+
+        <section class="project">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Python Tool</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Website</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Light Novel</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Python Tool</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Website</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Light Novel</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+         
+        </section>
+
+      </article> 
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/blog_coming.jpg" alt="New Blog in 2025" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Fundamentals</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-05-??">May, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Coming Soon...</h3>
+
+                  <p class="blog-text">
+                    Exciting insights and fresh content are on their way - stay tuned! 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57694.26451491691!2d74.63173619999999!3d25.34142055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3968c2368c070a55%3A0xc92f70a42dcb5294!2sBhilwara%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1747424701489!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <!-- <h3 class="h3 form-title">Contact Form</h3>
+          <form action="https://script.google.com/macros/s/AKfycbwRef1g6eXvAypY4Rz3uWiv-vDOvvzOg6KNmKLX1MweuMV0DsbmFCr7b_k6U7gYF6Uy/exec" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+            <div class="g-recaptcha" data-sitekey="6LeFjD0rAAAAAIZebJDs-23DMdiQmzel8t9YNJ99"></div>
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form> -->
+
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form id="contact-form" class="form">
+          
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+          
+            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+          
+            <div class="g-recaptcha" data-sitekey="6LeFjD0rAAAAAIZebJDs-23DMdiQmzel8t9YNJ99"></div>
+          
+            <button class="form-btn" type="submit" id="submit-btn">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          
+          </form>
+          
+          <script>
+            document.getElementById("contact-form").addEventListener("submit", function (e) {
+              e.preventDefault();
+
+              const form = e.target;
+              const formData = new FormData(form);
+              const submitBtn = document.getElementById("submit-btn");
+
+              // Disable the button and show sending text
+              submitBtn.disabled = true;
+              submitBtn.innerHTML = "Sending...";
+
+              fetch("https://script.google.com/macros/s/AKfycbwRef1g6eXvAypY4Rz3uWiv-vDOvvzOg6KNmKLX1MweuMV0DsbmFCr7b_k6U7gYF6Uy/exec", {
+                method: "POST",
+                body: formData
+              })
+                .then(response => response.text())
+                .then(responseText => {
+                  alert("Message sent successfully!");
+                  form.reset();
+
+                  // Re-enable the button
+                  submitBtn.disabled = false;
+                  submitBtn.innerHTML = '<ion-icon name="paper-plane"></ion-icon><span>Send Message</span>';
+                })
+                .catch(error => {
+                  console.error("Error!", error.message);
+                  alert("Something went wrong. Please try again later.");
+
+                  // Re-enable on failure too
+                  submitBtn.disabled = false;
+                  submitBtn.innerHTML = '<ion-icon name="paper-plane"></ion-icon><span>Send Message</span>';
+                });
+            });
+          </script>
+          
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
